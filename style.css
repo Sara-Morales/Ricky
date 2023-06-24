@@ -1,3 +1,10 @@
 p{
-    color: rgb(0, 219, 160);
+    color: rgb(220, 169, 4);
+    background-color: rgb(92, 92, 249);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+p:hover{
+    color: black;
+    
 }
