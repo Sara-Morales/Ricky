@@ -27,7 +27,7 @@ async function loadCharacters(url) {
             </div> 
           </div>
         `;
-      $containerCharacters.appendChild($template);
+      $containerCharacters.innerHTML=$template;
     }
   } catch (err) {
     console.log(err);
