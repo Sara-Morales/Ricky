@@ -25,12 +25,6 @@ section{
     margin-top: 5%;
 
 }
-
-.img {
-    width: auto;
-    
-}
-
 .show-characters {
   color: blueviolet;
   background-color: aquamarine;
@@ -64,5 +58,8 @@ section{
     border-radius: 15px;
     border: solid 5px rgb(34, 192, 197);
     background-color: black;
-
+    transition: transform 0.2s ease;
+}
+.card-container:hover{
+    transform: scale(1.1);
 }
