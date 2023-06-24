@@ -1,19 +1,20 @@
-p {
-  color: rgb(220, 169, 4);
-  background-color: rgb(92, 92, 249);
-  font-weight: bold;
-  font-family: sans-serif;
-}
-p:hover {
-  color: black;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
 }
 
-h1 {
-  color: aqua;
-  background-color: black;
-  font-weight: bold;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+header{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    
+}
+
+.img {
+    width: auto;
+    
 }
 
 .show-characters {
@@ -29,4 +30,8 @@ h1 {
   background-color: green;
   width: 5rem;
   height: auto;
+}
+
+.container-characters{
+    background-color: white;
 }
